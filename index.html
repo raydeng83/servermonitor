@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Starter Template for Bootstrap</title>
+  <title>Server Status Metrics</title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -58,7 +58,6 @@
 
       <h3>Sun Guard Server</h3>
 
-      <button id="button">Test Button</button>
       <table class="table table-hover" id="dev_servers">
         <thead>
           <tr>
@@ -74,16 +73,55 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
             <td>OpenAM</td>
-            <td>MDWIAMPHX03.ikasystems.com</td>
-            <td id="dev1_am_status">isAlive=True</td>
-            <td>Authn_Token=True</td>
-            <td>OAuth_Token=True</td>
-            <td>SAML_Token=True</td>
-            <td>isAlive=True</td>
+            <td>VCSIQWOAM01.visiantcloud.com:8443</td>
+            <td id="dev1_am_status">N/A</td>
+            <td>N/A</td>
+            <td id="dev1_oauth_status">N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
           </tr>
-          
+          <tr>
+            <td>OpenAM</td>
+            <td>VCSIQWOAM02.visiantcloud.com:8443</td>
+            <td id="dev2_am_status">N/A</td>
+            <td>N/A</td>
+            <td id="dev2_oauth_status">N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+          </tr>
+          <tr>
+            <td>OpenAM_LoadBalancer</td>
+            <td>iamnp.visiantcloud.com</td>
+            <td id="loadbalancer_am_status">N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+          </tr>
+          <tr>
+            <td>OpenIDM</td>
+            <td>VCSIQWOIDM01.visiantcloud.com:18443</td>
+            <td id="dev1_idm_status">N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+          </tr>
+          <tr>
+            <td>OpenIDM</td>
+            <td>VCSIQWOIDM02.visiantcloud.com:18443</td>
+            <td id="dev2_idm_status">N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+          </tr>
         </tbody>
       </table>
     </div>
